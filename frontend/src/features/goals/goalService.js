@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = '/api/goals/'
+const API_URL = 'https://learnmern-api.onrender.com/api/goals/'
 
 const createGoal = async (goalData, token) => {
   const config = {
